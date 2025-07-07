@@ -30,8 +30,8 @@ const DenominationInput: React.FC<Props> = ({ label, denomination, value, onChan
       onClick={handleCardClick}
       className="group relative flex flex-col gap-2 items-start justify-center p-4 bg-white rounded-2xl border border-gray-300 hover:border-blue-400 hover:shadow-lg transition-all cursor-pointer"
     >
-      <div className="text-gray-800 text-sm">
-        {label} $<span className='font-semibold'>{denomination}</span>
+      <div className="text-gray-900 text-sm text-xl">
+        {label} $<span className='font-bold'>{denomination}</span>
       </div>
       <input
         type="number"
